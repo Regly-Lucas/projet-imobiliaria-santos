@@ -1,0 +1,169 @@
+header {
+    padding: 20px 0;
+    background-color: #a0d9ff;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+header li,
+.secao-seis li {
+    list-style: none;
+}
+
+header a {
+    color: #1d1d1d;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+   }
+
+.center {
+    text-align: center;
+}
+
+.logo {
+    width: 130px;
+}
+
+.secao-dois {
+    padding-top: 50px;
+}
+
+.secao-tres {
+    padding: 70px 0;
+}
+
+.secao-tres span {
+    color: #1c81c0;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #1d1d1d;
+}
+
+h2 {
+    font-size: 24;
+    color: #1c81c0;
+    font-weight: lighter;
+}
+
+.imovel-img,
+.corretores-img {
+    width: 400px;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.div-secao-quatro,
+.div-secao-seis {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.secao-quatro {
+    background-color: #1d80c1;
+    color: #ffffff;
+    height: 500px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.secao-quatro span,
+.secao-seis span {
+    color: yellow;
+    font-weight: bold;
+}
+
+.secao-quatro li {
+    width: 50px;
+    margin: 0 auto 15px auto;
+    font-size: 20px;
+}
+
+.secao-quatro h3,
+.secao-cinco h3,
+.secao-seis h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.secao-quatro p {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.secao-cinco h3 {
+    color: #1c81c0;
+}
+
+.secao-cinco span {
+    color: #1c81c0;
+    font-weight: bold;
+}
+
+.secao-cinco a {
+    color: #1c81c0;
+    text-decoration: none;
+    border-bottom: 2px solid #1c81c0;
+    border-right: 2px solid #1c81c0;
+    padding: 2px;
+}
+.secao-cinco{
+    margin-bottom: 60px;
+}
+.secao-seis {
+    background-color: #1c81c0;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.secao-seis h3 {
+    color: #ffffff;
+}
+
+.secao-seis p {
+    color: #ffffff;
+    background-color: #1D1D1D;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    }
+
+.secao-seis a {
+    color: #1c81c0;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.secao-seis li {
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 1000px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1140px){
+    .secao-seis p{
+ width: 300px;
+ margin: 0 auto 30px auto;
+    }
+}
